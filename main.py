@@ -10,7 +10,8 @@ password = 'Hyderabad43%'
 host = '34.122.229.143'  # Update to your SQL Database external IP
 port = '5432'
 
-@app.route('/get_polygon', methods=['GET'])
+//@app.route('/get_polygon', methods=['GET'])
+@app.route('/')
 def get_polygon():
     # Connect to the PostGIS database
     connection = psycopg2.connect(dbname=dbname, user=user, password=password, host=host, port=port)
