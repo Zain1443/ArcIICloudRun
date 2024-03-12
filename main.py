@@ -6,7 +6,7 @@ app = Flask(__name__)
 # PostGIS database connection details
 dbname = 'lab1'
 user = 'postgres'
-password = 'Hyderabad43%'
+password = '*********'
 host = '34.122.229.143'  # Update to your SQL Database external IP
 port = '5432'
 
